@@ -1,0 +1,49 @@
+body{
+    background-image: url('weather.png');
+}
+
+h1, h2, h3, h4, span {
+    margin: 0;
+}
+
+h1 {
+    font-size: 16rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+h4 {
+    /* font-weight: lighter; */
+    font-size: 1rem;
+}
+
+span {
+    font-size: 6rem;
+}
+
+.container {
+    max-width: 550px;
+    height: 100vh;
+    border: 2px solid black;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    text-align: center;
+    padding: 25px 5px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    /* background: linear-gradient( to bottom, #FFFFFF, #6495ED); */
+    background-color: white;
+}
+
+.degrees {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin-left: 2rem;
+}
